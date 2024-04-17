@@ -1,6 +1,6 @@
 {
   "name": "rk26-word-counter",
-  "version": "2.5.1",
+  "version": "2.6.1",
   "description": "A word counter that runs on terminal . It counts the word  of a sentences along with total letters that sentence contains ",
   "main": "index.js",
   "type": "module",
