@@ -16,8 +16,8 @@ console.log(chalk.bold.blue.bgYellow("\t\nANSWER\n\t"));
 
 const words = answer.Sentence.trim().split(/\s+/);
 console.log(chalk.bold.yellow(words));
-console.log(chalk.bold.blue.bgYellow(`\t\nThe total number of words it contains is: ${words.length}\n\t`));
+console.log(chalk.bold.blue.bgYellow(`\t\nThe total number of words your input contains is: ${words.length}\n\t`));
 
 const letters = answer.Sentence.replace(/ /g, "").split("");
 console.log(chalk.bold.yellow(letters));
-console.log(chalk.bold.bgYellow.blue(`\t\nThe total number of letters it contains: ${letters.length}\n\t`));
+console.log(chalk.bold.bgYellow.blue(`\t\nThe total number of letters your input contains: ${letters.length}\n\t`));
